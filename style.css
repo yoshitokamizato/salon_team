@@ -5,3 +5,8 @@ h1 {
 .main {
   letter-spacing: 1px;
 }
+
+.main p span {
+  font-size: 25px;
+  color: rgba(0, 255, 255);
+}
