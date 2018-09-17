@@ -1,0 +1,76 @@
+body {
+  background: #102f44;
+  font-family:Arial,sans-serif;
+  font-size: 16px;
+}
+
+
+.box + .box {
+    margin-left: 40px;
+}
+
+.container {
+  width: 320px;
+  margin:auto;
+}
+.boxes {
+    font-size: 0;
+    margin-bottom: 40px;
+}
+.box {
+  cursor: pointer;
+}
+.shake:hover {
+  animation-name: shake;
+  animation-duration: .2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0%{ transform: rotate(8deg) translate(1px,0);}
+  50%{ transform: rotate(-8deg) translate(-1px,0);}
+  100%{ transform: rotate(8deg) translate(1px,0);}
+}
+
+
+
+
+
+/* .shake:hover {
+  animation-name: shake;
+  animation-duretion: .2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+} */
+/*一定の速度*/
+/*繰り返す回数*/
+/* @keyframes shake{
+  0% { transform: rotate(8deg) translate(1px,0); },
+  50% {transform: rotate(-8deg) translate(-1px,0); },
+  100% {transform: rotate(8deg) translate(1px,0); }
+} */
+
+
+/* 残りの画像をクリックできなようにして薄くする */
+.box.disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+#btn {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  width: 320px;
+  border: 2px solid #fff;
+  font-weight: bold;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+
+}
+/*初めは色を薄くしてクリックできないようにする*/
+#btn.inactive {
+  opacity: 0.2;
+  cursor: default;
+}

@@ -1,0 +1,5 @@
+img { width: 100%; }
+
+#play { margin-top: 20px; border: 1px solid; padding: 30px; }
+
+#play .title { padding-bottom: 30px; /* font-size: 2.3em; */ }
