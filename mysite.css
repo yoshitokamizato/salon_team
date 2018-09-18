@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+header{
+    height:400px;
+    width:100%;
+}
+
+.logo{
+    height:400px;
+    width:100%;
+}
+
+.container{
+    max-width:1170px;
+    width:100%;
+    margin:0 auto;
+}
+
+.prof-wrapper{
+    padding:50px 0 50px 0;
+    background-color:#ccffff;
+    color:#33CC00;
+    text-align:left;
+    height:500px;
+}
+
+.prof-left{
+    float:left;
+    text-align:center;
+}
+
+
+.prof-right{
+    margin-top:-15px;
+    float:right;
+    font-size:15px;
+}
+
+.fab{
+    margin-right:5px;
+}
+
+.icon{
+    height:300px;
+    width:500px;
+}
