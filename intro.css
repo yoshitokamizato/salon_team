@@ -1,0 +1,21 @@
+body{
+  background-color: rgba(25, 25, 25, 0.9);
+}
+
+
+.container{
+  text-align: center;
+}
+.text{
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+.top-image{
+  background: url(img/bms.jpg);
+  background-size: cover;
+  opacity: 0.8;
+}
+.top-text{
+  color: rgba(255,255,255,0.95);
+}
