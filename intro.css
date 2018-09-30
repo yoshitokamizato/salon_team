@@ -1,11 +1,11 @@
 body{
   background-color: rgba(25, 25, 25, 0.9);
-}
-
-
-.container{
   text-align: center;
+  justify-content: center;
+  margin: 0;
 }
+
+
 .text{
   color: rgba(255, 255, 255, 0.8);
 }
@@ -23,7 +23,7 @@ body{
 
 .block {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,12 +32,14 @@ body{
   top: 0;
 }
 .block-one {
-  background: url(img/lady1.jpeg);
+  background: rgb(0, 65, 227);
   background-size: cover;
+  height: 100vh;
   z-index: 100;
 }
 .block-two {
-  background: url(img/landscape1.jpg);
+  background: rgb(0, 65, 227);
   background-size: cover;
+  height:200vh;
   z-index: 200;
 }
